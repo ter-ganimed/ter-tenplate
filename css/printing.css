@@ -1,0 +1,129 @@
+/* Core */
+#rt-logo {background: url(../images/logo/logo.png); margin-left: 30px;}
+#rt-main .rt-container { background-color: #FFF !important; }
+}
+
+/* rt-top */
+#rt-top .rt-block {padding:15px 0 0 0; margin-bottom:0; text-align: right;}
+
+/* Language Chooser */
+#rt-top .rt-container .mod-languages ul.lang-inline {margin-top: 3px; display: inline;}
+#rt-top .rt-container .mod-languages ul.lang-inline li {margin-right: 0;}
+#rt-top .rt-container .mod-languages div.pretext, #rt-top .rt-container .mod-languages div.pretext p {color: #fff; margin: 0; display: inline;}
+
+/* ValAddThis */
+#rt-top .rt-block div.addthis_toolbox {float: right; clear: both;}
+#rt-top .rt-block div.addthis_toolbox .FBlike {width: 80px;}
+#rt-top .rt-block div.addthis_toolbox .plusone {margin-right: 0 !important;}
+#rt-top .rt-block div.addthis_toolbox .plusone #___plusone_0 {width: 58px !important;}
+
+/* rt-header (Menu) */
+#rt-header .rt-block a, #rt-header .rt-block div, #rt-header .rt-block p, #rt-header .rt-block span  {color: #996;}
+#rt-header .rt-block {padding: 0; margin:0;}
+#rt-header .rt-grid-12 {margin-left: 0; margin-right:0; width: 960px;}
+#rt-header .rt-block ul {padding: 6px 0;}
+#rt-header .rt-block ul li {display: inline; list-style-type: none; margin: 0 15px; text-transform: uppercase;}
+#rt-header .rt-block ul li:first-child {margin-left:72px;}
+#rt-header .rt-block ul.menu_sub {border-top: 1px solid #cc9;}
+#rt-header .rt-block ul.menu_sub li {text-transform:none;}
+#rt-header .rt-container { background-image: url(../images/header/border.gif); background-repeat: repeat-x; background-position-y: bottom;}
+
+/* rt-main */
+#rt-main .rt-container { padding: 15px 0; }
+#rt-main .rt-container .rt-block { padding: 0; }
+#rt-main .rt-container .rt-grid-3 { margin-left: 10px; margin-right: 20px; width: 200px; }
+#rt-main .rt-container .rt-grid-9 { margin-left: 20px; margin-right: 10px; }
+
+/* rt-bottom */
+#rt-bottom .rt-container { background-image: url(../images/header/border.gif); background-repeat: repeat-x; background-position-y: bottom;}
+
+/* sidebar-a */
+div#rt-sidebar-a { background-color: transparent; }
+div#rt-sidebar-a .rt-block ul li {list-style-image: url(../images/icons/icon-list.png);}
+div#rt-sidebar-a div { margin-bottom: 15px; }
+div#rt-sidebar-a div div{ margin-bottom: 5px; }
+div#rt-sidebar-a div .rt-block ul { padding-left: 12px;}
+div#rt-sidebar-a div .rt-block ul li a {padding: 0; font-size: 12px; line-height: 18px;}
+
+/* news */
+div.news{ background-color: #fff; padding: 10px;}
+div#rt-sidebar-a div div.news .rt-block { margin-bottom: 5px;}
+div#rt-sidebar-a div.module-title { margin-bottom: 10px; }
+div.news h2.title { text-align: center; }
+
+/* contact */
+div.contact { background-color: #fff; padding: 10px;}
+div.contact div.contact { padding: 0px;}
+div.contact p {margin-bottom: 0;}
+div#rt-sidebar-a div.contact div {margin-bottom: 0;}
+div.contact h2, div.contact h2 span {margin-bottom: 0; font-size: 14px; font-weight: normal; text-align: center; text-transform: uppercase; background-color: transparent; letter-spacing: normal; text-align: center;}
+
+/* article (gets shadow) */
+.rt-article div.rt-article-content { background-color: white; float: left;}
+.rt-article div.rt-article-content div { padding: 10px; }
+.rt-article div.rt-article-content div.rt-article-icons { padding: 0 0 5px 5px; position: absolute; top: 10px; right: 10px;}
+.rt-article div.rt-article-content div.rt-article-icons ul { list-style: none;}
+.rt-article h2.title {margin: 0 0 15px 0;}
+.component-content .rt-article-icons ul li { display: inline; }
+.rt-article h3, .rt-article h3 span { color: #6B8628; font-variant: small-caps; font-size: 14px; letter-spacing: normal;}
+
+/* article image (gets shadow) */
+div.img-fulltext-left, div.img-fulltext-right {padding: 0;}
+div.img-fulltext-left { float: left;}
+div.img-fulltext-right { float: right;}
+div.img-fulltext-left div div{ padding: 0 10px 0 0; margin: 0 10px 10px 0;}
+div.img-fulltext-right div div { padding: 0 10px 0 0; margin: 0 0 10px 10px;}
+div.img-fulltext-left img { width: 100%; border: 5px solid white;}
+div.img-fulltext-right img { width: 100%; border: 5px solid white;}
+
+/* bottommenu */
+.bottommenu ul {padding: 6px 0;}
+.bottommenu ul li {float: left; list-style-type: none; text-transform: uppercase; width: 225px;}
+div.bottommenu ul li a span {color: #666; font-size: 11px; }
+div#rt-bottom .rt-container { padding-bottom: 15px; }
+
+/* copyright */
+div#rt-copyright div.login-onsite, div#rt-copyright div.login-admin { float: left; width: 2% }
+div#rt-copyright div.login-onsite img, div#rt-copyright div.login-admin img { width: 12px; img: 12px; }
+div#rt-copyright div.copyright { float: left; width: 96%; text-align:center }
+div#rt-copyright div.rt-block { padding: 6px;}
+div#rt-copyright div.rt-block a, div#rt-copyright div.rt-block div, div#rt-copyright div.rt-block p {color:#999; font-size: 10px;}
+#rt-copyright .rt-container { background-color: transparent; background-image: url(../images/top/border.gif); background-repeat: repeat-x; background-position-y: bottom; padding-bottom: 5px;}
+
+/* edit tool tip*/
+.tip-wrap { background-color: #fff; padding: 10px}
+
+/* edit mode */
+.fltlft, .hasTip { float: left }
+.hasTip { clear: left; }
+.component-content .formelm label { width: 150px; }
+.component-content .formelm { padding: 5px 0; }
+form#imageForm, form#uploadForm, iframe#imageframe { width: 800px; }
+
+/* shadow */
+.shadow, .tip-wrap {
+  border: 1px solid #ccc;
+}
+
+/*  *** generic class selectors *** */
+
+a img{border:0;}
+
+a {text-decoration: none;}
+
+a:hover {color: #6b8628;}
+
+body, table, body.cssstyle-style1.font-size-is-default {
+ font-size: 12px;
+ line-height: normal;
+}
+
+p { margin: 7px 0;}
+
+h2.title, h2.title a {background-color: color: #fff; font-size: 18px; padding: 4px 10px; font-variant:small-caps; font-weight: normal; line-height: normal; margin: 0; letter-spacing: normal;}
+
+div.clearfix { clear: both; height: 0; }
+
+/* joomla override */
+.component-content .rt-article-bg { border-bottom: 0; }
+.component-content .rt-article-icons { width: initial; }
